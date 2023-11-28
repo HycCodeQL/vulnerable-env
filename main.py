@@ -4,8 +4,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-PASSWORD = "password"
-
 
 @app.get("/")
 def read_root():
